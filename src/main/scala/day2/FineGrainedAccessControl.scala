@@ -15,7 +15,13 @@ package society {
         //println(another.secrets)// ERROR
       }
     }
-
+  }
+  package social{
+    class Acquaintance{
+      def socialize(person:professional.Executive): Unit ={
+        println(person.friends)
+      }
+    }
   }
 
 }
