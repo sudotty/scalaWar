@@ -1,3 +1,5 @@
+package day1
+
 /**
   * Created by sin13cos14 on 16/10/12  22:56.
   */
