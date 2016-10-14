@@ -18,4 +18,3 @@ object MarkerFactory {
     if (markers.contains(color)) markers(color) else null
   }
 }
-
