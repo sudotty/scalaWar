@@ -6,3 +6,18 @@ class Marker(val color: String) {
 
   override def toString: String = "marker color" + color
 }
+
+object MarkerFactory {
+  private val markers = Map(
+    "red" -> new Marker("red"),
+    "blue" -> new Marker("blue"),
+    "green" -> new Marker("green")
+  )
+
+  def getMarkers(color: String) = {
+    if (markers.contains(color))
+      markers(color)
+    else
+      null
+  }
+}
