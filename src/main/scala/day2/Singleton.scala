@@ -21,3 +21,9 @@ object MarkerFactory {
       null
   }
 }
+
+println(MarkerFactory getMarkers "blue")
+println(MarkerFactory getMarkers "blue")
+println(MarkerFactory getMarkers "red")
+println(MarkerFactory getMarkers "red")
+println(MarkerFactory getMarkers "yellow")
