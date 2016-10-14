@@ -15,10 +15,7 @@ object MarkerFactory {
   )
 
   def getMarkers(color: String) = {
-    if (markers.contains(color))
-      markers(color)
-    else
-      null
+    if (markers.contains(color)) markers(color) else null
   }
 }
 
