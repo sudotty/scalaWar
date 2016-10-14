@@ -9,6 +9,6 @@ class Microwave {
   private def turnTable() = println("turning table")
 }
 
-val microwave = new Microwave
-microwave.start()
+//val microwave = new Microwave
+//microwave.start()
 //microwave.turnTable //Error
