@@ -13,3 +13,4 @@ class Car(override val id: Int, override val year: Int, var fueLevel: Int) exten
 
 // val car = new Car(1,2009,100)
 // println(car)
+// 取消注释执行结果
