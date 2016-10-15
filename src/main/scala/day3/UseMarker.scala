@@ -3,9 +3,9 @@
   */
 
 class UseMarker {
-  println(Marker getMarker "red")
-  println(Marker getMarker "red")
-  println(Marker getMarker "blue")
-  println(Marker getMarker "blue")
+  println(Marker2 getMarker "red")
+  println(Marker2 getMarker "red")
+  println(Marker2 getMarker "blue")
+  println(Marker2 getMarker "blue")
 
 }
