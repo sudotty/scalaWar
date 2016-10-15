@@ -6,3 +6,6 @@ class Marker private(val color: String) {
 
   override def toString: String = "marker color " + color
 }
+object Marker{
+
+}
