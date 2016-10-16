@@ -13,4 +13,6 @@ object Marker {
   )
 
   def primaryColor = "red,green,blue"
+
+  def apply(color: String) = if (markers.contains(color)) markers(color) else null
 }
