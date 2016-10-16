@@ -16,3 +16,5 @@ object Marker3 {
 
   def apply(color: String) = if (markers3.contains(color)) markers3
 }
+
+// Marker("Blue")  等同于 Maker.apply("blue")
