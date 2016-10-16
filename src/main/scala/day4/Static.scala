@@ -1,18 +1,18 @@
 /**
   * Created by sin13cos14 on 16/10/16  23:02.
   */
-class Marker private(val color: String) {
+class Marker3 private(val color: String) {
   override def toString: String = "marker color " + color
 }
 
-object Marker {
-  private val markers = Map(
-    "red" -> new Marker("red"),
-    "blue" -> new Marker("blue"),
-    "green" -> new Marker("green")
+object Marker3 {
+  private val markers3 = Map(
+    "red" -> new Marker3("red"),
+    "blue" -> new Marker3("blue"),
+    "green" -> new Marker3("green")
   )
 
   def primaryColor = "red,green,blue"
 
-  def apply(color: String) = if (markers.contains(color)) markers(color) else null
+  def apply(color: String) = if (markers3.contains(color)) markers3
 }
