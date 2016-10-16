@@ -17,4 +17,5 @@ object Marker3 {
   def apply(color: String) = if (markers3.contains(color)) markers3
 }
 
+// 创建伴生类实例不需要new关键词
 // Marker("Blue")  等同于 Maker.apply("blue")
