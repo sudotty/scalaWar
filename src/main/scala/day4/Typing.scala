@@ -10,3 +10,4 @@ class Typing {
   var builder = new StringBuilder("hello")
   println(builder.getClass)
 }
+// scala会在 编译期进行类型推导
