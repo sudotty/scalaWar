@@ -10,5 +10,5 @@ class Generics2 {
   var list2 = new ArrayList
 
   //list2 = list1
-  //上述语句编译错误
+  //上述语句编译错误,这是因为list2实际上创建的是一个ArrayList[Nothing]的实例
 }
