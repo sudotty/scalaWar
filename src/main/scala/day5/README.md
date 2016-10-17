@@ -13,3 +13,11 @@
 
 1. Any的两个后代,一个是AnyVal,这是所有基本类型的基类;一个是AnyRef,这个就是所有应用对象的基类.使用AnyRef就跟在Java中使用Object的一样
 即:AnyRef直接映射为Object,Any和AnyVal则是通过类型擦除成了Object
+
+## Nothing 类型
+
+1. Nothing是所有类型的子类
+2. Nothing是抽象的,可以替换Scala中任何东西
+
+## Option 类型
+
