@@ -10,5 +10,4 @@ class OptionExample {
     val comment = commentOnPractice(input)
     println("input " + input + " comment " + comment.getOrElse("Found no comments"))
   }
-
 }
